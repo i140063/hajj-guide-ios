@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11521544210EFA7F00944581 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521543210EFA7F00944581 /* Hero.swift */; };
+		1152154D210F128600944581 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1152154C210F128600944581 /* DatabaseManager.swift */; };
+		11521570210F1AA800944581 /* HajjAndUmrah.db in Resources */ = {isa = PBXBuildFile; fileRef = 1152156F210F1AA800944581 /* HajjAndUmrah.db */; };
+		11692A55210F1D12006DB157 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 11692A4A210F1D11006DB157 /* FMResultSet.m */; };
+		11692A56210F1D12006DB157 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 11692A4B210F1D11006DB157 /* FMDatabasePool.m */; };
+		11692A57210F1D12006DB157 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11692A4D210F1D11006DB157 /* FMDatabaseAdditions.m */; };
+		11692A58210F1D12006DB157 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 11692A52210F1D12006DB157 /* FMDatabaseQueue.m */; };
+		11692A59210F1D12006DB157 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 11692A53210F1D12006DB157 /* FMDatabase.m */; };
+		11692A5C210F1E50006DB157 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11692A5B210F1E50006DB157 /* DBManager.swift */; };
+		11692A5E210F20C4006DB157 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11692A5D210F20C4006DB157 /* Category.swift */; };
+		11B0C3CD2111821D00E8D6F9 /* WallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0C3CA2111821B00E8D6F9 /* WallpaperViewController.swift */; };
+		11B0C3CE2111821D00E8D6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0C3CB2111821C00E8D6F9 /* AppDelegate.swift */; };
+		11B0C3CF2111821D00E8D6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0C3CC2111821C00E8D6F9 /* ViewController.swift */; };
+		11B0C3D121118F5200E8D6F9 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0C3D021118F5200E8D6F9 /* Content.swift */; };
+		11B0C3D32111907400E8D6F9 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B0C3D22111907300E8D6F9 /* Contract.swift */; };
+		11B74CA320F879C3001946C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B74CA220F879C3001946C9 /* FirstViewController.swift */; };
+		11B74CA520F879C3001946C9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B74CA420F879C3001946C9 /* SecondViewController.swift */; };
+		11B74CA820F879C3001946C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B74CA620F879C3001946C9 /* Main.storyboard */; };
+		11B74CAA20F879C3001946C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B74CA920F879C3001946C9 /* Assets.xcassets */; };
+		11B74CAD20F879C3001946C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B74CAB20F879C3001946C9 /* LaunchScreen.storyboard */; };
+		11B74CB520F87A36001946C9 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B74CB420F87A36001946C9 /* File.swift */; };
+		11B74CB720F8BDD9001946C9 /* CategoryListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B74CB620F8BDD9001946C9 /* CategoryListItemTableViewCell.swift */; };
+		11B74CBB21006434001946C9 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B74CB921006434001946C9 /* ContentViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11521543210EFA7F00944581 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		1152154C210F128600944581 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		1152156F210F1AA800944581 /* HajjAndUmrah.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = HajjAndUmrah.db; path = ../../../../HajjAndUmrah.db; sourceTree = "<group>"; };
+		11692A4A210F1D11006DB157 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMResultSet.m"; sourceTree = "<group>"; };
+		11692A4B210F1D11006DB157 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabasePool.m"; sourceTree = "<group>"; };
+		11692A4C210F1D11006DB157 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabasePool.h"; sourceTree = "<group>"; };
+		11692A4D210F1D11006DB157 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		11692A4E210F1D11006DB157 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		11692A4F210F1D12006DB157 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDB.h"; sourceTree = "<group>"; };
+		11692A50210F1D12006DB157 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		11692A51210F1D12006DB157 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabase.h"; sourceTree = "<group>"; };
+		11692A52210F1D12006DB157 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		11692A53210F1D12006DB157 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMDatabase.m"; sourceTree = "<group>"; };
+		11692A54210F1D12006DB157 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/FMResultSet.h"; sourceTree = "<group>"; };
+		11692A5A210F1D9B006DB157 /* FMDB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDB-Bridging-Header.h"; sourceTree = "<group>"; };
+		11692A5B210F1E50006DB157 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBManager.swift; path = "../../../../../../Downloads/FMDBDemo-master/FMDBTut/DBManager.swift"; sourceTree = "<group>"; };
+		11692A5D210F20C4006DB157 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		11B0C3CA2111821B00E8D6F9 /* WallpaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WallpaperViewController.swift; path = "../../../../../Downloads/Scroll View School - Part 13- Paging Scroll Views II | Ray W/challenge finished/WallpaperPaging/WallpaperPaging/WallpaperViewController.swift"; sourceTree = "<group>"; };
+		11B0C3CB2111821C00E8D6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../../Downloads/Scroll View School - Part 13- Paging Scroll Views II | Ray W/challenge finished/WallpaperPaging/WallpaperPaging/AppDelegate.swift"; sourceTree = "<group>"; };
+		11B0C3CC2111821C00E8D6F9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Downloads/Scroll View School - Part 13- Paging Scroll Views II | Ray W/challenge finished/WallpaperPaging/WallpaperPaging/ViewController.swift"; sourceTree = "<group>"; };
+		11B0C3D021118F5200E8D6F9 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		11B0C3D22111907300E8D6F9 /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		11B74C9D20F879C3001946C9 /* hajj-guide-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hajj-guide-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B74CA220F879C3001946C9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		11B74CA420F879C3001946C9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		11B74CA720F879C3001946C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B74CA920F879C3001946C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B74CAC20F879C3001946C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B74CAE20F879C3001946C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B74CB420F87A36001946C9 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		11B74CB620F8BDD9001946C9 /* CategoryListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListItemTableViewCell.swift; sourceTree = "<group>"; };
+		11B74CB921006434001946C9 /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		11D77956210EF40E005F3C1B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		11D77958210EF418005F3C1B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B74C9A20F879C3001946C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11521542210EFA6300944581 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11521543210EFA7F00944581 /* Hero.swift */,
+				11692A5D210F20C4006DB157 /* Category.swift */,
+				11B0C3D021118F5200E8D6F9 /* Content.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11521545210F10EF00944581 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				11B74CB420F87A36001946C9 /* File.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1152154B210F123E00944581 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				11692A5B210F1E50006DB157 /* DBManager.swift */,
+				1152154C210F128600944581 /* DatabaseManager.swift */,
+				11B0C3D22111907300E8D6F9 /* Contract.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		11692A22210F1C8E006DB157 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				11692A51210F1D12006DB157 /* FMDatabase.h */,
+				11692A53210F1D12006DB157 /* FMDatabase.m */,
+				11692A4E210F1D11006DB157 /* FMDatabaseAdditions.h */,
+				11692A4D210F1D11006DB157 /* FMDatabaseAdditions.m */,
+				11692A4C210F1D11006DB157 /* FMDatabasePool.h */,
+				11692A4B210F1D11006DB157 /* FMDatabasePool.m */,
+				11692A50210F1D12006DB157 /* FMDatabaseQueue.h */,
+				11692A52210F1D12006DB157 /* FMDatabaseQueue.m */,
+				11692A4F210F1D12006DB157 /* FMDB.h */,
+				11692A54210F1D12006DB157 /* FMResultSet.h */,
+				11692A4A210F1D11006DB157 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		11B74C9420F879C3001946C9 = {
+			isa = PBXGroup;
+			children = (
+				11B74C9F20F879C3001946C9 /* hajj-guide-v2 */,
+				11B74C9E20F879C3001946C9 /* Products */,
+				F7A818B4B856AFEED5A0A3BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11B74C9E20F879C3001946C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B74C9D20F879C3001946C9 /* hajj-guide-v2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B74C9F20F879C3001946C9 /* hajj-guide-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				11B0C3CB2111821C00E8D6F9 /* AppDelegate.swift */,
+				11B0C3CC2111821C00E8D6F9 /* ViewController.swift */,
+				11B0C3CA2111821B00E8D6F9 /* WallpaperViewController.swift */,
+				11692A22210F1C8E006DB157 /* FMDB */,
+				1152154B210F123E00944581 /* Database */,
+				11521545210F10EF00944581 /* Utility */,
+				11521542210EFA6300944581 /* Models */,
+				11B74CA220F879C3001946C9 /* FirstViewController.swift */,
+				11B74CA420F879C3001946C9 /* SecondViewController.swift */,
+				11B74CA620F879C3001946C9 /* Main.storyboard */,
+				11B74CA920F879C3001946C9 /* Assets.xcassets */,
+				1152156F210F1AA800944581 /* HajjAndUmrah.db */,
+				11B74CAB20F879C3001946C9 /* LaunchScreen.storyboard */,
+				11B74CAE20F879C3001946C9 /* Info.plist */,
+				11B74CB620F8BDD9001946C9 /* CategoryListItemTableViewCell.swift */,
+				11B74CB921006434001946C9 /* ContentViewController.xib */,
+				11692A5A210F1D9B006DB157 /* FMDB-Bridging-Header.h */,
+			);
+			path = "hajj-guide-v2";
+			sourceTree = "<group>";
+		};
+		F7A818B4B856AFEED5A0A3BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D77958210EF418005F3C1B /* libsqlite3.0.tbd */,
+				11D77956210EF40E005F3C1B /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B74C9C20F879C3001946C9 /* hajj-guide-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B74CB120F879C3001946C9 /* Build configuration list for PBXNativeTarget "hajj-guide-v2" */;
+			buildPhases = (
+				11B74C9920F879C3001946C9 /* Sources */,
+				11B74C9A20F879C3001946C9 /* Frameworks */,
+				11B74C9B20F879C3001946C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hajj-guide-v2";
+			productName = "hajj-guide-v2";
+			productReference = 11B74C9D20F879C3001946C9 /* hajj-guide-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B74C9520F879C3001946C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kindred Spirits";
+				TargetAttributes = {
+					11B74C9C20F879C3001946C9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11B74C9820F879C3001946C9 /* Build configuration list for PBXProject "hajj-guide-v2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B74C9420F879C3001946C9;
+			productRefGroup = 11B74C9E20F879C3001946C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B74C9C20F879C3001946C9 /* hajj-guide-v2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B74C9B20F879C3001946C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11521570210F1AA800944581 /* HajjAndUmrah.db in Resources */,
+				11B74CBB21006434001946C9 /* ContentViewController.xib in Resources */,
+				11B74CAD20F879C3001946C9 /* LaunchScreen.storyboard in Resources */,
+				11B74CAA20F879C3001946C9 /* Assets.xcassets in Resources */,
+				11B74CA820F879C3001946C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B74C9920F879C3001946C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1152154D210F128600944581 /* DatabaseManager.swift in Sources */,
+				11B74CB720F8BDD9001946C9 /* CategoryListItemTableViewCell.swift in Sources */,
+				11692A59210F1D12006DB157 /* FMDatabase.m in Sources */,
+				11B74CA520F879C3001946C9 /* SecondViewController.swift in Sources */,
+				11B74CB520F87A36001946C9 /* File.swift in Sources */,
+				11B0C3D121118F5200E8D6F9 /* Content.swift in Sources */,
+				11692A58210F1D12006DB157 /* FMDatabaseQueue.m in Sources */,
+				11521544210EFA7F00944581 /* Hero.swift in Sources */,
+				11692A55210F1D12006DB157 /* FMResultSet.m in Sources */,
+				11692A57210F1D12006DB157 /* FMDatabaseAdditions.m in Sources */,
+				11692A56210F1D12006DB157 /* FMDatabasePool.m in Sources */,
+				11692A5E210F20C4006DB157 /* Category.swift in Sources */,
+				11B0C3D32111907400E8D6F9 /* Contract.swift in Sources */,
+				11B0C3CF2111821D00E8D6F9 /* ViewController.swift in Sources */,
+				11B74CA320F879C3001946C9 /* FirstViewController.swift in Sources */,
+				11692A5C210F1E50006DB157 /* DBManager.swift in Sources */,
+				11B0C3CE2111821D00E8D6F9 /* AppDelegate.swift in Sources */,
+				11B0C3CD2111821D00E8D6F9 /* WallpaperViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11B74CA620F879C3001946C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B74CA720F879C3001946C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B74CAB20F879C3001946C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B74CAC20F879C3001946C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B74CAF20F879C3001946C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B74CB020F879C3001946C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B74CB220F879C3001946C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAP3Q8VG4F;
+				INFOPLIST_FILE = "hajj-guide-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bismillah.hajj-guide-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hajj-guide-v2/hajj-guide-v2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B74CB320F879C3001946C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CAP3Q8VG4F;
+				INFOPLIST_FILE = "hajj-guide-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bismillah.hajj-guide-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hajj-guide-v2/hajj-guide-v2-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B74C9820F879C3001946C9 /* Build configuration list for PBXProject "hajj-guide-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B74CAF20F879C3001946C9 /* Debug */,
+				11B74CB020F879C3001946C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B74CB120F879C3001946C9 /* Build configuration list for PBXNativeTarget "hajj-guide-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B74CB220F879C3001946C9 /* Debug */,
+				11B74CB320F879C3001946C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B74C9520F879C3001946C9 /* Project object */;
+}

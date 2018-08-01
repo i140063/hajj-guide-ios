@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hajj-guide-v2/CategoryListItemTableViewCell.swift"
+            timestampString = "553674062.451991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hajj_guide_v2.CategoryListItemTableViewCell.__deallocating_deinit"
+                  moduleName = "hajj-guide-v2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/project/Desktop/iOS%20Projects/hajj-guide-ios/hajj-guide-v2/hajj-guide-v2/CategoryListItemTableViewCell.swift"
+                  timestampString = "553173618.23623"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hajj_guide_v2.CategoryListItemTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; hajj_guide_v2.CategoryListItemTableViewCell"
+                  moduleName = "hajj-guide-v2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/project/Desktop/iOS%20Projects/hajj-guide-ios/hajj-guide-v2/hajj-guide-v2/CategoryListItemTableViewCell.swift"
+                  timestampString = "553173618.242232"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hajj_guide_v2.CategoryListItemTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; hajj_guide_v2.CategoryListItemTableViewCell"
+                  moduleName = "hajj-guide-v2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/project/Desktop/iOS%20Projects/hajj-guide-ios/hajj-guide-v2/hajj-guide-v2/CategoryListItemTableViewCell.swift"
+                  timestampString = "553173618.248314"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hajj_guide_v2.CategoryListItemTableViewCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;hajj_guide_v2.CategoryListItemTableViewCell&gt;"
+                  moduleName = "hajj-guide-v2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/project/Desktop/iOS%20Projects/hajj-guide-ios/hajj-guide-v2/hajj-guide-v2/CategoryListItemTableViewCell.swift"
+                  timestampString = "553173618.253189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hajj_guide_v2.CategoryListItemTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;hajj_guide_v2.CategoryListItemTableViewCell&gt;"
+                  moduleName = "hajj-guide-v2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/project/Desktop/iOS%20Projects/hajj-guide-ios/hajj-guide-v2/hajj-guide-v2/CategoryListItemTableViewCell.swift"
+                  timestampString = "553173618.256344"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
